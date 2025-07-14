@@ -108,11 +108,11 @@ export const myProjects = [
         name: "Three.js",
         path: "/assets/logos/white-threejs.png",
       },
-       {
-         id: 4,
-         name: "Tradition",
-         path: "",
-       },
+      {
+        id: 4,
+        name: "Tradition",
+        path: "",
+      },
     ],
   },
   {

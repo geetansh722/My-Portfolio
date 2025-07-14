@@ -32,12 +32,20 @@ const Navbar = () => {
     <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
       <div className="mx-auto c-space max-w-7xl">
         <div className="flex items-center justify-between py-2 sm:py-0">
-          <a
-            href="/"
-            className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
-          >
-            Geet Code
-          </a>
+          <div className="flex items-center gap-2">
+            <img
+              src="assets/logos/G transparent logo.png"
+              alt="Logo"
+              className="w-10 h-10 object-contain"
+            />
+            <a
+              href="https://www.instagram.com/geet_coder/"
+              target="_blank"
+              className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
+            >
+              Geet Code
+            </a>
+          </div>
 
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -55,17 +63,19 @@ const Navbar = () => {
         </div>
       </div>
       {isOpen && (
-        <motion.div className="block overflow-hidden text-center
-        sm:hidden" initial={{ opacity: 0, y : -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        style={{ maxHeight:"100vh" }}
-        transition={{ duration: 1}}
+        <motion.div
+          className="block overflow-hidden text-center
+        sm:hidden"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          style={{ maxHeight: "100vh" }}
+          transition={{ duration: 1 }}
         >
-        <nav className="pb-5">
-          <Navigation />
-        </nav>
-      </motion.div>
-    )}
+          <nav className="pb-5">
+            <Navigation />
+          </nav>
+        </motion.div>
+      )}
     </div>
   );
 };

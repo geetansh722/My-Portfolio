@@ -89,9 +89,7 @@ const About = () => {
             <p className="text-center headtext">
               Do you want to start a project together?
             </p>
-          <p className="text-white text-1.5xl">
-            developergeetansh@gmail.com
-            </p>
+            <p className="text-white text-1.5xl">developergeetansh@gmail.com</p>
             <CopyEmailButton />
           </div>
         </div>
