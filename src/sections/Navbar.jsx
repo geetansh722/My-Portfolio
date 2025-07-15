@@ -43,7 +43,7 @@ const Navbar = () => {
               target="_blank"
               className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
             >
-              Geet Code
+              Geetansh
             </a>
           </div>
 
