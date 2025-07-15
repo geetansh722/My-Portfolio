@@ -12,7 +12,7 @@ export const myProjects = [
       "Designed to impress recruiters and clients by blending creative expression with secure, scalable frontend development skills.",
     ],
 
-    href: "",
+    href: "/",
     logo: "",
     image: "/assets/projects/self-portfolio.png",
     tags: [
@@ -50,7 +50,7 @@ export const myProjects = [
       "Added additional links like 'Log in with Facebook', 'Forgot password?', and 'Sign up'.",
       "Ensured full responsiveness across screen sizes using CSS media queries and flexbox.",
     ],
-    href: "",
+    href: "/",
     logo: "",
     image: "/assets/projects/Instagram-login-form.png",
     tags: [
@@ -164,7 +164,7 @@ export const myProjects = [
   //     "Optimized SEO and page speed using Vite.js for fast builds.",
   //     "Implemented custom widgets and plugin compatibility for extended functionality.",
   //   ],
-  //   href: "",
+  //   href: "/",
   //   logo: "",
   //   image: "/assets/projects/wordpress-theme.jpg",
   //   tags: [
@@ -201,7 +201,7 @@ export const myProjects = [
   //     "Added a quiz system with dynamic question generation and real-time grading.",
   //     "Integrated Stripe API for secure payment processing.",
   //   ],
-  //   href: "",
+  //   href: "/",
   //   logo: "",
   //   image: "/assets/projects/elearning.jpg",
   //   tags: [
