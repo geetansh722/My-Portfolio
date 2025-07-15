@@ -127,7 +127,7 @@ export const myProjects = [
       "Applied soft shadows, rounded borders, and responsive UI for a modern, emotional presentation.",
       "Demonstrated creativity by merging coding concepts with emotional storytelling.",
     ],
-    href: "https://mother-tribute.pages.dev",
+    href: "/",
     logo: "",
     image: "/assets/projects/mother_love.png",
     tags: [
