@@ -41,7 +41,7 @@ const CopyEmailButton = () => {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.1 }}
           >
-            <img src="assets/copy.svg" className="w-5" alt="copy icon" />
+            <img src="assets/copy.svg" className="w-5 items-center justify-between " alt="copy icon" />
             Copy Email Address
           </motion.p>
         )}

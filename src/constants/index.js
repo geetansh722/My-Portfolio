@@ -5,11 +5,11 @@ export const myProjects = [
     description:
       "An engaging 3D-styled personal portfolio built with React and Vite, designed to showcase developer identity with immersive visuals and secure web focus.",
     subDescription: [
+      "Designed to impress recruiters and clients by blending creative expression with secure, scalable frontend development skills.",
       "Developed using React and bundled with Vite for fast performance and Three.js for interactive 3D visuals forand modern development workflow.",
       "Crafted an interactive hero section featuring bold typography, cosmic themes, and a floating 3D astronaut illustration to reflect innovation.",
       "Focused on responsive layout and cross-device compatibility for a consistent and engaging user experience.",
       "Included smooth scroll navigation to sections like About, Work, and Contact with a clean UI.",
-      "Designed to impress recruiters and clients by blending creative expression with secure, scalable frontend development skills.",
     ],
 
     href: "/",
@@ -86,7 +86,6 @@ export const myProjects = [
       "Integrated Devanagari script with English text (`शाही प्रवेश • ROYAL LOGIN`) for a culturally blended heading.",
       "Styled input fields with dashed royal borders and elegant fonts to match the historical theme.",
       "Implemented a gradient ‘Login’ button that stands out while blending with the scroll’s edges.",
-      "Added a register link with royal calligraphy and red accent to guide new users.",
       "Ensured responsiveness across devices while preserving traditional visual richness and layout balance.",
     ],
     href: "https://royal-login-form.pages.dev",
@@ -121,7 +120,6 @@ export const myProjects = [
     description:
       "A heartfelt web-based tribute using HTML-inspired syntax to express love for Mom, blending technical creativity with emotional warmth.",
     subDescription: [
-      "Designed a vibrant, gradient-based layout symbolizing affection and warmth.",
       "Crafted playful HTML-themed messages like `<!DOCTYPE_love>` and `<link_rel='lovesheet'>` for a unique and personal touch.",
       "Illustrated an anatomically styled heart using custom vector graphics to visually represent love.",
       "Applied soft shadows, rounded borders, and responsive UI for a modern, emotional presentation.",
