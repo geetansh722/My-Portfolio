@@ -8,7 +8,6 @@ export const myProjects = [
       "Designed to impress recruiters and clients by blending creative expression with secure, scalable frontend development skills.",
       "Developed using React and bundled with Vite for fast performance and Three.js for interactive 3D visuals forand modern development workflow.",
       "Crafted an interactive hero section featuring bold typography, cosmic themes, and a floating 3D astronaut illustration to reflect innovation.",
-      "Focused on responsive layout and cross-device compatibility for a consistent and engaging user experience.",
       "Included smooth scroll navigation to sections like About, Work, and Contact with a clean UI.",
     ],
 
