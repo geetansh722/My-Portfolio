@@ -10,6 +10,13 @@ const HeroText = () => {
 
   return (
     <div className="z-10 mt-20 text-center md:mt-40 md:text-left rounded-3xl bg-clip-text">
+      <motion.p className="text-1xl font-black -mt-30 mb-25 text-neutral-300 cursor-pointer"
+          variants={varients}
+          initial = "hidden"
+          animate = "visible"
+            transition={{ delay: 0.5 }}>
+           I’m 16, and already sprinting past limits — every line of code is part of my evolution. I build experiences that move.
+          </motion.p>
       {/* DesktopView */}
       <div className="flex-col hidden md:flex c-space">
         <motion.h1
@@ -55,6 +62,8 @@ const HeroText = () => {
         </div>
       </div>
       {/* Mobile view */}
+      
+      
       <div className="flex- flex-col space-y-6 md:hidden">
         <motion.p className="text-4xl font-medium"
           variants={varients}
