@@ -52,7 +52,7 @@ const HeroText = () => {
             >
               Web Solutions
             </motion.p>
-            <motion.p className="text-1xl font-black mt-30  text-neutral-300 cursor-pointer"
+            <motion.p className="text-1xl font-black -mt-95 text-neutral-300 "
           variants={varients}
           initial = "hidden"
           animate = "visible"
